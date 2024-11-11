@@ -12,7 +12,7 @@ Then, save it to ```dataset``` folder.
 Please run the following codes to train the model.
 
 ```
-python main --data_path ./dataset --epochs 300 --use_gpu True --train
+python main.py --data_path ./dataset --epochs 300 --use_gpu True --train
 ```
 
 **Test process**
@@ -20,5 +20,5 @@ python main --data_path ./dataset --epochs 300 --use_gpu True --train
 Please run the following codes to test on MSTAR.
 
 ```
-python main --data_path ./dataset --epochs 300 --use_gpu True --checkpoint ./checkpoint/model_best.pth 
+python main.py --data_path ./dataset --epochs 300 --use_gpu True --checkpoint ./checkpoint/model_best.pth 
 ```
