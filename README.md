@@ -8,6 +8,7 @@ To get start, you must download the mstar dataset from [MSTAR](https://drive.goo
 Then, save it to ```dataset``` folder.
 
 **Training process**
+
 Please run the following codes to train the model.
 
 ```
@@ -15,6 +16,7 @@ python main --data_path ./dataset --epochs 300 --use_gpu True --train
 ```
 
 **Test process**
+
 Please run the following codes to test on MSTAR.
 
 ```
