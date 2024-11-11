@@ -9,7 +9,7 @@ Then, save it to ```dataset``` folder.
 
 **Training process**
 
-Please run the following codes to train the model.
+Please run the following code to train the model.
 
 ```
 python main.py --data_path ./dataset --epochs 300 --use_gpu True --train
@@ -17,7 +17,7 @@ python main.py --data_path ./dataset --epochs 300 --use_gpu True --train
 
 **Test process**
 
-Please run the following codes to test on MSTAR.
+Please run the following code to test on MSTAR.
 
 ```
 python main.py --data_path ./dataset --use_gpu True --checkpoint ./checkpoint/model_best.pth 
