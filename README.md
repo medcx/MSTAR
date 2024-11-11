@@ -20,5 +20,5 @@ python main.py --data_path ./dataset --epochs 300 --use_gpu True --train
 Please run the following codes to test on MSTAR.
 
 ```
-python main.py --data_path ./dataset --epochs 300 --use_gpu True --checkpoint ./checkpoint/model_best.pth 
+python main.py --data_path ./dataset --use_gpu True --checkpoint ./checkpoint/model_best.pth 
 ```
