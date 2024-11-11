@@ -19,7 +19,7 @@ def set_seed(seed):
 
 def get_parser():
     parser = argparse.ArgumentParser()
-    parser.add_argument("--data_path", type=str, default="./dataset/", help="folder to load data")
+    parser.add_argument("--data_path", type=str, default="./dataset", help="folder to load data")
     parser.add_argument("--epochs", type=int, default=300, help="total number of epochs")
     parser.add_argument("--seed", type=int, default=1234, help="random seed")
     parser.add_argument("--use_gpu", type=bool, default=True, help="training on gpu or not")

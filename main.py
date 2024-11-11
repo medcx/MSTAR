@@ -4,8 +4,8 @@ from torch.optim import lr_scheduler
 from model import ResNet18
 from data.dataload import create_dataloaders
 from utils import set_seed, get_parser
-from train import train_process
-from test import test_process
+from process.train import train_process
+from process.test import test_process
 
 
 
